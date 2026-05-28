@@ -1,0 +1,10 @@
+{
+  "name": "Flight Departures",
+  "short_name": "Departures",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "any",
+  "description": "Check live flight departures from any airport worldwide."
+}

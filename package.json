@@ -1,0 +1,14 @@
+{
+  "name": "flight-departures",
+  "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "engines": { "node": ">=22" },
+  "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
+  "scripts": {
+    "dev": "pnpm --filter @flight-departures/web dev",
+    "build": "pnpm --filter @flight-departures/web build",
+    "preview": "pnpm --filter @flight-departures/web preview",
+    "typecheck": "pnpm --filter @flight-departures/web exec tsc -b",
+    "test": "pnpm --filter @flight-departures/web test"
+  }
+}
