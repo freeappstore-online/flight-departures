@@ -8,7 +8,6 @@
     "dev": "pnpm --filter @flight-departures/web dev",
     "build": "pnpm --filter @flight-departures/web build",
     "preview": "pnpm --filter @flight-departures/web preview",
-    "typecheck": "pnpm --filter @flight-departures/web exec tsc -b",
-    "test": "pnpm --filter @flight-departures/web test"
+    "typecheck": "pnpm --filter @flight-departures/web exec tsc -b"
   }
 }
