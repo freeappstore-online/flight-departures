@@ -1,0 +1,6 @@
+{
+  "appId": "flight-departures",
+  "applicationRoot": "web",
+  "outputPath": "web/dist",
+  "buildCommand": "pnpm build"
+}
